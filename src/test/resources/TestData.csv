@@ -1,0 +1,19 @@
+Variable key,Variable Value
+EmailError,The e-mail address entered is invalid.
+Error,The field is required.
+MobileError,The telephone number is invalid.
+Email,aa@test
+CompanyUrl,https://www.musala.com/company/
+sectionText,Leadership
+fbUrl,https://www.facebook.com/MusalaSoft?fref=ts
+JoinUsUrl,https://www.musala.com/careers/join-us/
+SelectAnyWhere,Anywhere
+Sofia,Sofia
+Skopje,Skopje
+GeneralDescription,General description
+Requirements,Requirements
+Responsibilities,Responsibilities
+WhatWeOffer,What we offer
+MobileNo,323
+Email,aa@test.com
+EmptyString,

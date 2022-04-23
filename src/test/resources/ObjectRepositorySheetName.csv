@@ -1,0 +1,39 @@
+Element Name,Page,Find By,Value
+ContactUsBtn,ContactUs,css,a[href*='#contact_form_pop']
+NameTxt,ContactUs,name,your-name
+EmailTxt,ContactUs,name,your-email
+SubjectTxt,ContactUs,name,your-subject
+MessageTxt,ContactUs,name,your-message
+MobileTxt,Apply,name,mobile-number
+UploadTxt,Apply,name,uploadtextfield
+SendBtn,ContactUs,xpath,//input[@value='Send']
+NameErrorMessage,ContactUs,xpath,//*[@name='your-name']/following-sibling::span
+EmailErrorMessage,ContactUs,xpath,//*[@name='your-email']/following-sibling::span
+MobileErrorMessage,ContactUs,xpath,//*[@name='mobile-number']/following-sibling::span
+MessageErrorMessage,ContactUs,xpath,//*[@name='your-message']/following-sibling::span
+CloseBtn,Apply,xpath,//Button[text()='Close']
+checkBoxBtn,Apply,id,adConsentChx
+robotCheck,Apply,id,recaptcha-anchor
+CompanyBtn,Company,css,ul[id='menu-main-nav-1']>li > a[href*='company']
+LeadershipH2,Company,xpath,//section[@class='company-members']//h2
+AcceptBtn,Company,id,wt-cli-accept-all-btn
+FbPage,Company,css,a[href*='https://www.facebook.com/MusalaSoft']
+image,Company,css,a[href*='https://www.facebook.com/MusalaSoft/photos/a.152166551470703/3926723730681614/?__tn__=%3C']
+CareersBtn,Careers,css,ul[id='menu-main-nav-1']>li > a[href*='careers']
+OpenPositions,Careers,xpath,//button[@class='contact-label contact-label-code btn btn-1b']
+selectAnyWhere,Careers,id,get_location
+ChooseJob,Careers,xpath,//*[text()='Automation QA Engineer']
+GeneralDescription,Careers,xpath,//*[text()='General description']
+Requirements,Careers,xpath,//*[text()='Requirements']
+Responsibilities,Careers,xpath,//*[text()='Responsibilities']
+WhatWeOffer,Careers,xpath,//*[text()='What we offer']
+applyBtn,Careers,xpath,//*[@value='Apply']
+SendBtn,ContactUs,xpath,//*[@value='Send']
+CloseBtn,Careers,xpath,//*[text()='Close']
+cards,Careers,className,card-jobsHot
+cards0,cc,xpath,//*[@id='content']//div[@class='card-container']
+cards1,cc,xpath,//*[@id='content']//div[@class='card-container']/a
+cards2,cc,xpath,//*[@id='content']//div[@class='card-container']//h2
+
+
+
