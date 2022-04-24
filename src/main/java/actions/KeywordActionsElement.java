@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class KeywordActionsElement extends KeywordActionsBase {
+public class KeywordActionsElement extends KeywordActionsWait {
     Actions actions;
 //set variable sheet csv
 
@@ -39,7 +39,6 @@ public class KeywordActionsElement extends KeywordActionsBase {
 
     public void navigate()
 {
-    driver.manage().window().maximize();
     driver.navigate().to(Global.getProperty("url"));
 }
     public Object executeScript(String script, String text) {
@@ -47,7 +46,9 @@ public class KeywordActionsElement extends KeywordActionsBase {
     }
 
     public void click(String element) {
-        findElement(element).click();
+        WebElement webElement =findElement(element);
+        waitElementToClickable(element);
+        webElement.click();
     }
     public  void switchtoNewWindow()
     {
@@ -60,8 +61,13 @@ public class KeywordActionsElement extends KeywordActionsBase {
 //Use the list of window handles to switch between windows
         driver.switchTo().window(tabs.get(1));
     }
-    public void append(String Element, String VarName) {
-        findElement(Element).sendKeys(VarName);
+    public void append(String element, String varName) {
+        waitElementToDisplay(element);
+        findElement(element).sendKeys(getVariable(varName));
+    }
+    public void appendText(String element, String text) {
+        waitElementToDisplay(element);
+        findElement(element).sendKeys(text);
     }
     public void clearText(String Element){
         findElement(Element).clear();
@@ -71,6 +77,7 @@ public class KeywordActionsElement extends KeywordActionsBase {
 
     private Select select(String element) {
      WebElement   webelement=findElement(element);
+     waitElementToClickable(element);
         Select select = new Select( webelement);
 return select;
     }
@@ -103,10 +110,26 @@ return select;
         JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("arguments[0].click();", webElement);
     }
-
+public void clickAt(String element)
+{
+    WebElement webElement = findElement(element);
+    KeywordActionsGet actionsGet= new KeywordActionsGet(driver);
+    int [] location= actionsGet.getLocationArray(element);
+    actions.moveToElement(webElement,location[0],location[1]).click(webElement).build().perform();
+}
     public void scrollToElement(String po) {
         WebElement webElement = findElement(po);
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", webElement);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", webElement);
+        actions.moveToElement(webElement).perform();
+
+
+    }
+    public void scrollToBottom(String po) {
+        WebElement webElement = findElement(po);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(false)", webElement);
+        actions.moveToElement(webElement).perform();
+
+
     }
 
 public void switchtoFrame(WebElement element)

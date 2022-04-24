@@ -1,72 +1,104 @@
 package pages;
 
+import io.qameta.allure.Step;
 import utilites.EnumClass;
 import utilites.Global;
 
-public class ContactUs extends Utilites{
+public class ContactUs extends Utilities {
+    public  void acceptCookies()
+    {
+            actions.keywordActionsWait.waitElementToClickable("AcceptBtn");
+            actions.keywordActionsElement.clickUsingJS("AcceptBtn");
+    }
+    @Step("User Click at Contact Us Button")
     public void clickContactUs()
     {
         actions.keywordActionsElement.scrollToElement("ContactUsBtn");
-        actions.keywordActionsElement.click("ContactUsBtn");
+        actions.keywordActionsElement.clickUsingJS("ContactUsBtn");
     }
+    @Step("User type {0} in Name")
     public void typeRandomTextOnName(String text)
     {
-        actions.keywordActionsElement.type("NameTxt",text);
+        actions.keywordActionsElement.append("NameTxt",text);
 
     }
+    @Step("User type {0} in Email")
 
     public void typeInvalidTextOnEmail(String text)
     {
-        actions.keywordActionsElement.type("EmailTxt",text);
+        actions.keywordActionsElement.append("EmailTxt",text);
 
     }
+    @Step("User type {0} in Mobile")
+
     public void typeInvalidTextOnMobile(String text)
     {
-        actions.keywordActionsElement.type("MobileTxt",text);
+        actions.keywordActionsElement.append("MobileTxt",text);
 
     }
+    @Step("User type {0} in Subject")
+
     public void typeRandomTextOnSubject(String text)
     {
-        actions.keywordActionsElement.type("SubjectTxt",text);
+        actions.keywordActionsElement.append("SubjectTxt",text);
 
     }
+    @Step("User upload cv")
+
     public void uploadCV(String text)
     {
-        actions.keywordActionsElement.append("UploadTxt",text);
+        actions.keywordActionsElement.appendText("UploadTxt",text);
 
     }
+    @Step("User type {0} in Message box")
+
     public void typeRandomTextOnMassage(String  text)
     {
-        actions.keywordActionsElement.type("MessageTxt", text);
+        actions.keywordActionsElement.append("MessageTxt", text);
 
     }
+    @Step("User click on send text")
+
     public void clickOnSendText()
     {
         actions.keywordActionsElement.click("SendBtn");
 
     }
+    @Step("User assert email error Message")
+
     public void assertEmailErrorMessage()
     {
         actions.keywordActionsWait.waitElementExistence("EmailErrorMessage");
         actions.assertActions.assertText("EmailErrorMessage","EmailError",true);
     }
+    @Step("User assert {0} error Message")
+
     public void assertError(String elementName , String error)
     {
         actions.keywordActionsWait.waitElementExistence(elementName);
         actions.assertActions.assertText(elementName,error,true);
+        actions.keywordActionsWait.sleep(EnumClass.sleepMode.Mill,200);
     }
+    @Step("User check accept checkbox")
+
     public void clickAcceptButton()
     {
         actions.keywordActionsElement.click("checkBoxBtn");
     }
+    @Step("User click send button")
+
     public void sendButton()
     {
         actions.keywordActionsElement.click("SendBtn");
     }
+    @Step("User click close button")
+
     public void closeButton()
     {
         actions.keywordActionsElement.clickUsingJS("CloseBtn");
     }
+    @Step("User upload cv then click send button")
+
     public void continueApply()
     {
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
@@ -78,6 +110,8 @@ public class ContactUs extends Utilites{
         actions.keywordActionsWait.sleep(EnumClass.sleepMode.Mill,200);
         closeButton();
     }
+    @Step("User validate 'Apply for page' for {0} ")
+
     public void applyFor(String text)
     {
      switch (text)

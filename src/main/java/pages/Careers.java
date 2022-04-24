@@ -1,37 +1,52 @@
 package pages;
 
-import org.openqa.selenium.By;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import utilites.EnumClass;
 
 import java.util.List;
 
-public class Careers extends Utilites {
+public class Careers extends Utilities {
+    @Step("User click on careers button")
+
     public void clickCareersBtn()
     {
         actions.keywordActionsElement.scrollToElement("CareersBtn");
-        actions.keywordActionsElement.click("CareersBtn");
+        actions.keywordActionsWait.waitElementExistence("CareersBtn");
+        actions.keywordActionsElement.clickUsingJS("CareersBtn");
+        actions.keywordActionsWait.sleep(EnumClass.sleepMode.Sec,5);
     }
+    @Step("User click on open positions button")
+
     public void clickOnOpenPositions()
     {
         actions.keywordActionsWait.waitPageToLoad();
-        actions.keywordActionsElement.click("AcceptBtn");
+        actions.keywordActionsWait.waitElementToClickable("OpenPositions");
         actions.keywordActionsElement.click("OpenPositions");
     }
+    @Step("User assert page url")
+
     public void assertUrl()
     {
         actions.assertActions.assertUrl("JoinUsUrl",false);
     }
+    @Step("User select anywhere from drop down")
+
     public void SelectAnyWhere()
     {
         actions.keywordActionsElement.selectByValue("selectAnyWhere","SelectAnyWhere");
 
     }
+    @Step("User display all vacancies  based on city {0} ")
+
     public void displayVacanciesforCity(String city)
     {
+        actions.keywordActionsWait.waitElementExistence("selectAnyWhere");
         actions.keywordActionsElement.selectByValue("selectAnyWhere",city);
         System.out.println(city);
-        displayVacancies();
+        Allure.addAttachment("Console log: ",city);
+                displayVacancies();
 
     }
     public void displayVacancies()
@@ -39,17 +54,25 @@ public class Careers extends Utilites {
       List<WebElement> elementList= actions.keywordActionsElement.findElements("cards1");
         for (WebElement el:elementList
              ) {
+            actions.keywordActionsWait.waitElementToClickable(el);
             System.out.println(  "Position: "+  actions.keywordActionsGet.getText(el).split("\n")[0]);
+            Allure.addAttachment("Console log: ", "Position: "+  actions.keywordActionsGet.getText(el).split("\n")[0]);
+
             System.out.println(  "More info: "+  actions.keywordActionsGet.getAttribute(el,"href"));
+            Allure.addAttachment("Console log: ",  "More info: "+  actions.keywordActionsGet.getAttribute(el,"href"));
 
         }
 
     }
+    @Step("User select Test automation job")
+
     public void selectJob()
     {
         actions.keywordActionsElement.click("ChooseJob");
 
     }
+    @Step("User can verify sections displayed")
+
     public void verifySections()
     {
         actions.assertActions.assertText("GeneralDescription","GeneralDescription",false);
@@ -58,15 +81,14 @@ public class Careers extends Utilites {
         actions.assertActions.assertText("WhatWeOffer","WhatWeOffer",false);
 
     }
+    @Step("User assert and click apply button")
+
     public void assertandClickApplyBtn()
     {
         actions.keywordActionsElement.scrollToElement("applyBtn");
         actions.assertActions.assertDisplayed("applyBtn",false);
-        actions.keywordActionsElement.click("applyBtn");
+        actions.keywordActionsElement.clickUsingJS("applyBtn");
+        actions.keywordActionsWait.sleep(EnumClass.sleepMode.Sec,3);
     }
-    public void test()
-    {
-        actions.keywordActionsElement.driver.navigate().to("https://www.musala.com/job/experienced-automation-qa-engineer/");
 
-    }
 }

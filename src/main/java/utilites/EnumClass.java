@@ -7,6 +7,7 @@ public class EnumClass {
         xpath("xpath"),
         css("cssSelector"),
         className("className")
+        ,partialLinkText("partialLinkText")
 
         ;
         private final String value;

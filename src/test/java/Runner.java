@@ -1,35 +1,40 @@
+import io.qameta.allure.Description;
 import org.testng.annotations.*;
 import pages.Careers;
 import pages.Company;
 import pages.ContactUs;
-import pages.Utilites;
+import pages.Utilities;
 
 public class Runner {
-    Utilites utilites;
+    Utilities utilities = new Utilities();
     ContactUs contactUs=new ContactUs();
     Careers careers=new Careers();
 
-    @BeforeSuite
-public static void setup()
+    @BeforeTest
+    @Parameters({"browser"})
+public void setup(@Optional ("default") String browser)
     {
 
-        Utilites.initialize();
+        utilities.initialize(browser);
+        utilities.openUrl();
+        contactUs.acceptCookies();
+
     }
-    @BeforeMethod
-    public void openUrl()
-    {
-        utilites=new Utilites();
-        utilites.openUrl();
-    }
-    @Test
+@BeforeMethod
+public void openUrl()
+{
+    utilities.openUrl();
+}
+
+    @Test (priority = 0, description="Test Case 1")
+    @Description("Test Description: User fill contact us form")
     public void TestCase1()
     {
-        // Scroll down and go to ‘Contact Us’
+                // Scroll down and go to ‘Contact Us’
         contactUs.clickContactUs();
         //fill all required fields except email
-        //
         contactUs.typeRandomTextOnName("$randomString");
-        contactUs.typeInvalidTextOnEmail("Email");
+        contactUs.typeInvalidTextOnEmail("WrongEmail");
         contactUs.typeRandomTextOnSubject("$randomString");
         contactUs.typeRandomTextOnMassage("$randomString");
         contactUs.clickOnSendText();
@@ -37,7 +42,8 @@ public static void setup()
         contactUs.assertEmailErrorMessage();
 
     }
-    @Test
+    @Test (priority = 1, description="Test Case 2")
+    @Description("Test Description: User validate company section")
     public void TestCase2()
     {
         Company company=new Company();
@@ -49,7 +55,19 @@ public static void setup()
         company.assertMusalaImage();
 
     }
-    @Test (dataProvider = "data-provider")
+    @Test (priority = 2, description="Test Case 4")
+    @Description("Test Description: Display Open Vacancies on Sofia and Skopje")
+    public void TestCase4()
+    {
+        careers.clickCareersBtn();
+        careers.clickOnOpenPositions();
+        careers.displayVacanciesforCity("Sofia");
+        careers.displayVacanciesforCity("Skopje");
+
+
+    }
+    @Test (priority = 3,dataProvider = "data-provider", description="Test Case 3")
+    @Description("Test Description: User validate apply job form ")
     public void TestCase3(String method)
     {
         careers.clickCareersBtn();
@@ -63,16 +81,6 @@ public static void setup()
         contactUs.applyFor(method);
     }
 
-    @Test
-    public void TestCase4()
-    {
-        careers.clickCareersBtn();
-        careers.clickOnOpenPositions();
-        careers.displayVacanciesforCity("Sofia");
-        careers.displayVacanciesforCity("Skopje");
-
-
-    }
 
         @DataProvider (name = "data-provider")
     public Object[][] dpMethod(){
@@ -89,6 +97,6 @@ public static void setup()
 @AfterTest
     public void close()
 {
-    //utilites.close();
+    utilities.close();
 }
 }

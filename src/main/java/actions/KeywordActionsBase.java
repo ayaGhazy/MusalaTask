@@ -69,6 +69,9 @@ public abstract class KeywordActionsBase   {
                 return By.cssSelector(valueValue);
             case className:
                 return By.className(valueValue);
+            case partialLinkText:
+                return By.partialLinkText(valueValue);
+
             default: return  By.id(valueValue);
         }
     }

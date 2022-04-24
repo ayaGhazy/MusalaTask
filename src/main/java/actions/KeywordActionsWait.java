@@ -2,6 +2,7 @@ package actions;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,6 +23,10 @@ public class KeywordActionsWait extends KeywordActionsBase {
 
     public void waitElementToClickable(String element) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(findElement(element)));
+
+    }
+    public void waitElementToClickable(WebElement element) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(element));
 
     }
     public void waitPageToLoad()

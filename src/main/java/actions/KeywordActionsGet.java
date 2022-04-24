@@ -91,16 +91,16 @@ public class KeywordActionsGet extends KeywordActionsBase {
                 return location;
             }
 
-     public String[] getLocationArray(String element){
+     public int[] getLocationArray(String element){
         int leftX = findElement(element).getLocation().getX();
         int rightX = leftX + findElement(element).getSize().getWidth();
         int middleX = (rightX + leftX) / 2;
         String middleXstring = String.valueOf(middleX);
-        float upperY = findElement(element).getLocation().getY();
-        float lowerY = upperY + findElement(element).getSize().getHeight();
-        float middleY = (upperY + lowerY) / 2;
+        int upperY = findElement(element).getLocation().getY();
+        int lowerY = upperY + findElement(element).getSize().getHeight();
+        int middleY = (upperY + lowerY) / 2;
         String middleYstring = String.valueOf(middleY);
-        String[] coordinates = {middleXstring,middleYstring};
+        int[] coordinates = {middleX,middleY};
         return coordinates;
     }
 
