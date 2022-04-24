@@ -2,7 +2,7 @@ Variable key,Variable Value
 EmailError,The e-mail address entered is invalid.
 Error,The field is required.
 MobileError,The telephone number is invalid.
-Email,aa@test
+WrongEmail,aa@test
 CompanyUrl,https://www.musala.com/company/
 sectionText,Leadership
 fbUrl,https://www.facebook.com/MusalaSoft?fref=ts
