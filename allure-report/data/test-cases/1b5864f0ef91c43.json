@@ -1,0 +1,758 @@
+{
+  "uid" : "1b5864f0ef91c43",
+  "name" : "Test Case 4",
+  "fullName" : "Runner2.TestCase4",
+  "historyId" : "bf20922f736c0af3b52e6b782f48b386",
+  "time" : {
+    "start" : 1650863868415,
+    "stop" : 1650863898417,
+    "duration" : 30002
+  },
+  "description" : "Test Description: Display Open Vacancies on Sofia and Skopje",
+  "descriptionHtml" : "<p>Test Description: Display Open Vacancies on Sofia and Skopje</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650863786508,
+      "stop" : 1650863851185,
+      "duration" : 64677
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "start testing at browser ",
+      "time" : {
+        "start" : 1650863786566,
+        "stop" : 1650863823368,
+        "duration" : 36802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Musala url open",
+      "time" : {
+        "start" : 1650863823368,
+        "stop" : 1650863850270,
+        "duration" : 26902
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "refresh",
+    "time" : {
+      "start" : 1650863863853,
+      "stop" : 1650863868392,
+      "duration" : 4539
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Musala url open",
+      "time" : {
+        "start" : 1650863863853,
+        "stop" : 1650863868392,
+        "duration" : 4539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Display Open Vacancies on Sofia and Skopje",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User click on careers button",
+      "time" : {
+        "start" : 1650863868417,
+        "stop" : 1650863874964,
+        "duration" : 6547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User click on open positions button",
+      "time" : {
+        "start" : 1650863874965,
+        "stop" : 1650863885221,
+        "duration" : 10256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User display all vacancies  based on city Sofia ",
+      "time" : {
+        "start" : 1650863885221,
+        "stop" : 1650863892092,
+        "duration" : 6871
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "892641e66a137f14",
+        "name" : "Console log: ",
+        "source" : "892641e66a137f14.txt",
+        "type" : "text/plain",
+        "size" : 5
+      }, {
+        "uid" : "d7468dc579bb833d",
+        "name" : "Console log: ",
+        "source" : "d7468dc579bb833d.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "ce6df332e9823d8f",
+        "name" : "Console log: ",
+        "source" : "ce6df332e9823d8f.txt",
+        "type" : "text/plain",
+        "size" : 71
+      }, {
+        "uid" : "cd04536f483d6cfb",
+        "name" : "Console log: ",
+        "source" : "cd04536f483d6cfb.txt",
+        "type" : "text/plain",
+        "size" : 41
+      }, {
+        "uid" : "3455361457fba24d",
+        "name" : "Console log: ",
+        "source" : "3455361457fba24d.txt",
+        "type" : "text/plain",
+        "size" : 70
+      }, {
+        "uid" : "4566093e64cde3f8",
+        "name" : "Console log: ",
+        "source" : "4566093e64cde3f8.txt",
+        "type" : "text/plain",
+        "size" : 31
+      }, {
+        "uid" : "545972daa4ec77dc",
+        "name" : "Console log: ",
+        "source" : "545972daa4ec77dc.txt",
+        "type" : "text/plain",
+        "size" : 60
+      }, {
+        "uid" : "79c2b1d997229311",
+        "name" : "Console log: ",
+        "source" : "79c2b1d997229311.txt",
+        "type" : "text/plain",
+        "size" : 32
+      }, {
+        "uid" : "40de17c794abab26",
+        "name" : "Console log: ",
+        "source" : "40de17c794abab26.txt",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "bbede50ed0b7fbe0",
+        "name" : "Console log: ",
+        "source" : "bbede50ed0b7fbe0.txt",
+        "type" : "text/plain",
+        "size" : 26
+      }, {
+        "uid" : "b99a1127d9f9c9b7",
+        "name" : "Console log: ",
+        "source" : "b99a1127d9f9c9b7.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "592e013641c5367e",
+        "name" : "Console log: ",
+        "source" : "592e013641c5367e.txt",
+        "type" : "text/plain",
+        "size" : 30
+      }, {
+        "uid" : "7b94eaad5311796c",
+        "name" : "Console log: ",
+        "source" : "7b94eaad5311796c.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "c606739f61a2b891",
+        "name" : "Console log: ",
+        "source" : "c606739f61a2b891.txt",
+        "type" : "text/plain",
+        "size" : 34
+      }, {
+        "uid" : "c79f08657820c593",
+        "name" : "Console log: ",
+        "source" : "c79f08657820c593.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "87ffd64d1ef97883",
+        "name" : "Console log: ",
+        "source" : "87ffd64d1ef97883.txt",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "b49adf91c95b75eb",
+        "name" : "Console log: ",
+        "source" : "b49adf91c95b75eb.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "e980d41edc4407f3",
+        "name" : "Console log: ",
+        "source" : "e980d41edc4407f3.txt",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "9a0dc101879cb18b",
+        "name" : "Console log: ",
+        "source" : "9a0dc101879cb18b.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "cb602a5d69141d46",
+        "name" : "Console log: ",
+        "source" : "cb602a5d69141d46.txt",
+        "type" : "text/plain",
+        "size" : 37
+      }, {
+        "uid" : "21f26a1f21306a21",
+        "name" : "Console log: ",
+        "source" : "21f26a1f21306a21.txt",
+        "type" : "text/plain",
+        "size" : 67
+      }, {
+        "uid" : "5d492aa2f283f3d3",
+        "name" : "Console log: ",
+        "source" : "5d492aa2f283f3d3.txt",
+        "type" : "text/plain",
+        "size" : 26
+      }, {
+        "uid" : "f9926fca0b0b73e9",
+        "name" : "Console log: ",
+        "source" : "f9926fca0b0b73e9.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "c2efce4e904ebcd7",
+        "name" : "Console log: ",
+        "source" : "c2efce4e904ebcd7.txt",
+        "type" : "text/plain",
+        "size" : 62
+      }, {
+        "uid" : "5edb4450b596162",
+        "name" : "Console log: ",
+        "source" : "5edb4450b596162.txt",
+        "type" : "text/plain",
+        "size" : 91
+      }, {
+        "uid" : "c46a20dbf3895e26",
+        "name" : "Console log: ",
+        "source" : "c46a20dbf3895e26.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "75dda177d5439d00",
+        "name" : "Console log: ",
+        "source" : "75dda177d5439d00.txt",
+        "type" : "text/plain",
+        "size" : 76
+      }, {
+        "uid" : "459483bf755d05a",
+        "name" : "Console log: ",
+        "source" : "459483bf755d05a.txt",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "e2f3f4889af5f308",
+        "name" : "Console log: ",
+        "source" : "e2f3f4889af5f308.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "8378f55f3194f1d",
+        "name" : "Console log: ",
+        "source" : "8378f55f3194f1d.txt",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "c040a8721d5f2d53",
+        "name" : "Console log: ",
+        "source" : "c040a8721d5f2d53.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "ea90bfe18688857d",
+        "name" : "Console log: ",
+        "source" : "ea90bfe18688857d.txt",
+        "type" : "text/plain",
+        "size" : 30
+      }, {
+        "uid" : "1fa3ee021347cf2d",
+        "name" : "Console log: ",
+        "source" : "1fa3ee021347cf2d.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "92fcca20ab23419b",
+        "name" : "Console log: ",
+        "source" : "92fcca20ab23419b.txt",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "bdd2bf2b74ee3f7b",
+        "name" : "Console log: ",
+        "source" : "bdd2bf2b74ee3f7b.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "b773466af06db46f",
+        "name" : "Console log: ",
+        "source" : "b773466af06db46f.txt",
+        "type" : "text/plain",
+        "size" : 38
+      }, {
+        "uid" : "40dcb4739b215f37",
+        "name" : "Console log: ",
+        "source" : "40dcb4739b215f37.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "fa909d5945d280d7",
+        "name" : "Console log: ",
+        "source" : "fa909d5945d280d7.txt",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "161a6efa18615c1a",
+        "name" : "Console log: ",
+        "source" : "161a6efa18615c1a.txt",
+        "type" : "text/plain",
+        "size" : 62
+      }, {
+        "uid" : "bea7ff357893356c",
+        "name" : "Console log: ",
+        "source" : "bea7ff357893356c.txt",
+        "type" : "text/plain",
+        "size" : 34
+      }, {
+        "uid" : "4a294c8dd920ed8c",
+        "name" : "Console log: ",
+        "source" : "4a294c8dd920ed8c.txt",
+        "type" : "text/plain",
+        "size" : 63
+      }, {
+        "uid" : "1a4c693c73ab934",
+        "name" : "Console log: ",
+        "source" : "1a4c693c73ab934.txt",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "e2ca4bb1d910ad3b",
+        "name" : "Console log: ",
+        "source" : "e2ca4bb1d910ad3b.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "473092a3a0fd6d3a",
+        "name" : "Console log: ",
+        "source" : "473092a3a0fd6d3a.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "8ebe571d9d248a07",
+        "name" : "Console log: ",
+        "source" : "8ebe571d9d248a07.txt",
+        "type" : "text/plain",
+        "size" : 71
+      }, {
+        "uid" : "3d9314ad177fa99e",
+        "name" : "Console log: ",
+        "source" : "3d9314ad177fa99e.txt",
+        "type" : "text/plain",
+        "size" : 23
+      }, {
+        "uid" : "2eecdf977103ae6d",
+        "name" : "Console log: ",
+        "source" : "2eecdf977103ae6d.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "f51283fb211b2509",
+        "name" : "Console log: ",
+        "source" : "f51283fb211b2509.txt",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "7df8d207748b4fec",
+        "name" : "Console log: ",
+        "source" : "7df8d207748b4fec.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "Sofia"
+      } ],
+      "attachmentsCount" : 49,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "User display all vacancies  based on city Skopje ",
+      "time" : {
+        "start" : 1650863892092,
+        "stop" : 1650863898416,
+        "duration" : 6324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8a9fa8c85695da7",
+        "name" : "Console log: ",
+        "source" : "a8a9fa8c85695da7.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "5edc20da7b107a34",
+        "name" : "Console log: ",
+        "source" : "5edc20da7b107a34.txt",
+        "type" : "text/plain",
+        "size" : 31
+      }, {
+        "uid" : "c3c3bab9e8256a1f",
+        "name" : "Console log: ",
+        "source" : "c3c3bab9e8256a1f.txt",
+        "type" : "text/plain",
+        "size" : 60
+      }, {
+        "uid" : "534f59e433b46631",
+        "name" : "Console log: ",
+        "source" : "534f59e433b46631.txt",
+        "type" : "text/plain",
+        "size" : 32
+      }, {
+        "uid" : "8c06754b19197b7a",
+        "name" : "Console log: ",
+        "source" : "8c06754b19197b7a.txt",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "3a769400d7257426",
+        "name" : "Console log: ",
+        "source" : "3a769400d7257426.txt",
+        "type" : "text/plain",
+        "size" : 26
+      }, {
+        "uid" : "bbbd259378d2413c",
+        "name" : "Console log: ",
+        "source" : "bbbd259378d2413c.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "aee7cdfdf8cc27ea",
+        "name" : "Console log: ",
+        "source" : "aee7cdfdf8cc27ea.txt",
+        "type" : "text/plain",
+        "size" : 39
+      }, {
+        "uid" : "62bfa80ab30a728c",
+        "name" : "Console log: ",
+        "source" : "62bfa80ab30a728c.txt",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "5db4b9f94cb2aa97",
+        "name" : "Console log: ",
+        "source" : "5db4b9f94cb2aa97.txt",
+        "type" : "text/plain",
+        "size" : 30
+      }, {
+        "uid" : "6034288785d86d55",
+        "name" : "Console log: ",
+        "source" : "6034288785d86d55.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "155274c874cb2c8b",
+        "name" : "Console log: ",
+        "source" : "155274c874cb2c8b.txt",
+        "type" : "text/plain",
+        "size" : 34
+      }, {
+        "uid" : "cc1c7c444142d12a",
+        "name" : "Console log: ",
+        "source" : "cc1c7c444142d12a.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "fa2396e92ca5b84",
+        "name" : "Console log: ",
+        "source" : "fa2396e92ca5b84.txt",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "507af030ff5a551",
+        "name" : "Console log: ",
+        "source" : "507af030ff5a551.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "685808510bc5b51c",
+        "name" : "Console log: ",
+        "source" : "685808510bc5b51c.txt",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "26021aacd278db7e",
+        "name" : "Console log: ",
+        "source" : "26021aacd278db7e.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "db9f2bed626cbb52",
+        "name" : "Console log: ",
+        "source" : "db9f2bed626cbb52.txt",
+        "type" : "text/plain",
+        "size" : 37
+      }, {
+        "uid" : "a2b956366357f307",
+        "name" : "Console log: ",
+        "source" : "a2b956366357f307.txt",
+        "type" : "text/plain",
+        "size" : 67
+      }, {
+        "uid" : "5450d0e5095d16e4",
+        "name" : "Console log: ",
+        "source" : "5450d0e5095d16e4.txt",
+        "type" : "text/plain",
+        "size" : 62
+      }, {
+        "uid" : "2654cbaffe6eed9d",
+        "name" : "Console log: ",
+        "source" : "2654cbaffe6eed9d.txt",
+        "type" : "text/plain",
+        "size" : 91
+      }, {
+        "uid" : "8d21d38ff966d8c3",
+        "name" : "Console log: ",
+        "source" : "8d21d38ff966d8c3.txt",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "a748dee3b314af25",
+        "name" : "Console log: ",
+        "source" : "a748dee3b314af25.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "a7294812b49ab47a",
+        "name" : "Console log: ",
+        "source" : "a7294812b49ab47a.txt",
+        "type" : "text/plain",
+        "size" : 38
+      }, {
+        "uid" : "af2520778ae536b5",
+        "name" : "Console log: ",
+        "source" : "af2520778ae536b5.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "5e408af5dc694feb",
+        "name" : "Console log: ",
+        "source" : "5e408af5dc694feb.txt",
+        "type" : "text/plain",
+        "size" : 34
+      }, {
+        "uid" : "edce231233aefcdd",
+        "name" : "Console log: ",
+        "source" : "edce231233aefcdd.txt",
+        "type" : "text/plain",
+        "size" : 63
+      }, {
+        "uid" : "71a8405991e1bf8b",
+        "name" : "Console log: ",
+        "source" : "71a8405991e1bf8b.txt",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "346c00484697c005",
+        "name" : "Console log: ",
+        "source" : "346c00484697c005.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "4b36e6b4a33f31ea",
+        "name" : "Console log: ",
+        "source" : "4b36e6b4a33f31ea.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "86e5ce390da8b256",
+        "name" : "Console log: ",
+        "source" : "86e5ce390da8b256.txt",
+        "type" : "text/plain",
+        "size" : 71
+      }, {
+        "uid" : "b512c8eede1e3b4a",
+        "name" : "Console log: ",
+        "source" : "b512c8eede1e3b4a.txt",
+        "type" : "text/plain",
+        "size" : 23
+      }, {
+        "uid" : "e8f2be5e8076b471",
+        "name" : "Console log: ",
+        "source" : "e8f2be5e8076b471.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "f222c81ba1102e9d",
+        "name" : "Console log: ",
+        "source" : "f222c81ba1102e9d.txt",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "5f9d7f3e86f1cf0f",
+        "name" : "Console log: ",
+        "source" : "5f9d7f3e86f1cf0f.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "Skopje"
+      } ],
+      "attachmentsCount" : 35,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 84,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "report",
+    "time" : {
+      "start" : 1650863898447,
+      "stop" : 1650863898649,
+      "duration" : 202
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "close",
+    "time" : {
+      "start" : 1650864080881,
+      "stop" : 1650864081964,
+      "duration" : 1083
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Runner2"
+  }, {
+    "name" : "testClass",
+    "value" : "Runner2"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "Runner2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0BUAG6A0"
+  }, {
+    "name" : "thread",
+    "value" : "13900@LAPTOP-0BUAG6A0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b5864f0ef91c43.json",
+  "parameterValues" : [ ]
+}

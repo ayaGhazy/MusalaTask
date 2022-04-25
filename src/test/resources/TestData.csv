@@ -3,7 +3,13 @@ EmailError,The e-mail address entered is invalid.
 Error,The field is required.
 MobileError,The telephone number is invalid.
 WrongEmail,aa@test
+WrongEmail2,aa.com
+WrongEmail3,test@com..com
+WrongEmail4,123lg;lk;kg;lgkgksgls@gg.com
+WrongEmail5,aa@@test.com
 CompanyUrl,https://www.musala.com/company/
+CareerUrl,https://www.musala.com/careers/
+JobUrl,https://www.musala.com/job/experienced-automation-qa-engineer/
 sectionText,Leadership
 fbUrl,https://www.facebook.com/MusalaSoft?fref=ts
 JoinUsUrl,https://www.musala.com/careers/join-us/

@@ -1,0 +1,284 @@
+{
+  "uid" : "e5aff97510afc8ca",
+  "name" : "Test Case 2",
+  "fullName" : "Runner2.TestCase2",
+  "historyId" : "5a2252beeaad73184574389d3d636c23",
+  "time" : {
+    "start" : 1650862458416,
+    "stop" : 1650862466346,
+    "duration" : 7930
+  },
+  "description" : "Test Description: User validate company section",
+  "descriptionHtml" : "<p>Test Description: User validate company section</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650862341779,
+      "stop" : 1650862415675,
+      "duration" : 73896
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "start testing at browser ff",
+      "time" : {
+        "start" : 1650862341830,
+        "stop" : 1650862381382,
+        "duration" : 39552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "ff"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Musala url open",
+      "time" : {
+        "start" : 1650862381382,
+        "stop" : 1650862414847,
+        "duration" : 33465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "refresh",
+    "time" : {
+      "start" : 1650862455563,
+      "stop" : 1650862458404,
+      "duration" : 2841
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Musala url open",
+      "time" : {
+        "start" : 1650862455565,
+        "stop" : 1650862458404,
+        "duration" : 2839
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "Test Description: User validate company section",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User click company button",
+      "time" : {
+        "start" : 1650862458441,
+        "stop" : 1650862461530,
+        "duration" : 3089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User assert company page url",
+      "time" : {
+        "start" : 1650862461530,
+        "stop" : 1650862461538,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User validate on leadership section",
+      "time" : {
+        "start" : 1650862461538,
+        "stop" : 1650862461755,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User click on facebook button",
+      "time" : {
+        "start" : 1650862461755,
+        "stop" : 1650862462034,
+        "duration" : 279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User assert facebook page opened",
+      "time" : {
+        "start" : 1650862462034,
+        "stop" : 1650862465745,
+        "duration" : 3711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User assert musala image exists on facebook page",
+      "time" : {
+        "start" : 1650862465746,
+        "stop" : 1650862466346,
+        "duration" : 600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "report",
+    "time" : {
+      "start" : 1650862466350,
+      "stop" : 1650862466566,
+      "duration" : 216
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "close",
+    "time" : {
+      "start" : 1650862671641,
+      "stop" : 1650862673690,
+      "duration" : 2049
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Runner2"
+  }, {
+    "name" : "testClass",
+    "value" : "Runner2"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "firefox"
+  }, {
+    "name" : "subSuite",
+    "value" : "Runner2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0BUAG6A0"
+  }, {
+    "name" : "thread",
+    "value" : "10196@LAPTOP-0BUAG6A0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "ff"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5aff97510afc8ca.json",
+  "parameterValues" : [ "ff" ]
+}

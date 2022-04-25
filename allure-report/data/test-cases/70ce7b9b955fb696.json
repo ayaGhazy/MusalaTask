@@ -1,0 +1,249 @@
+{
+  "uid" : "70ce7b9b955fb696",
+  "name" : "Test Case 1",
+  "fullName" : "Runner2.TestCase1",
+  "historyId" : "2632ba5ec3a42521cad7fe904daf717",
+  "time" : {
+    "start" : 1650862710403,
+    "stop" : 1650862714166,
+    "duration" : 3763
+  },
+  "description" : "Test Description: User fill contact us form",
+  "descriptionHtml" : "<p>Test Description: User fill contact us form</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "refresh",
+    "time" : {
+      "start" : 1650862706191,
+      "stop" : 1650862710388,
+      "duration" : 4197
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Musala url open",
+      "time" : {
+        "start" : 1650862706191,
+        "stop" : 1650862710388,
+        "duration" : 4197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "Test Description: User fill contact us form",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Click at Contact Us Button",
+      "time" : {
+        "start" : 1650862710403,
+        "stop" : 1650862710988,
+        "duration" : 585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User type $randomString in Name",
+      "time" : {
+        "start" : 1650862710988,
+        "stop" : 1650862712242,
+        "duration" : 1254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "$randomString"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "User type WrongEmail in Email",
+      "time" : {
+        "start" : 1650862712242,
+        "stop" : 1650862712471,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "WrongEmail"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "User type $randomString in Subject",
+      "time" : {
+        "start" : 1650862712471,
+        "stop" : 1650862712856,
+        "duration" : 385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "$randomString"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "User type $randomString in Message box",
+      "time" : {
+        "start" : 1650862712857,
+        "stop" : 1650862713224,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "$randomString"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "User click on send text",
+      "time" : {
+        "start" : 1650862713224,
+        "stop" : 1650862713501,
+        "duration" : 277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User assert email error Message",
+      "time" : {
+        "start" : 1650862713502,
+        "stop" : 1650862714166,
+        "duration" : 664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "report",
+    "time" : {
+      "start" : 1650862714172,
+      "stop" : 1650862714377,
+      "duration" : 205
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Runner2"
+  }, {
+    "name" : "testClass",
+    "value" : "Runner2"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "Runner2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0BUAG6A0"
+  }, {
+    "name" : "thread",
+    "value" : "10196@LAPTOP-0BUAG6A0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "WrongEmail"
+  }, {
+    "name" : "browser",
+    "value" : "ch"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70ce7b9b955fb696.json",
+  "parameterValues" : [ "WrongEmail", "ch" ]
+}

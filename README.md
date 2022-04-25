@@ -5,6 +5,6 @@ for all object Repository "elements locators" exists in /test/resources/object R
 for all test data exists in /test/resources/testdata.csv
 for chrome , change in web.properties browserName=ch and firefox browserName=ff
 
-Report using allure report 
-for install
+Report using allure report allure generate allure-results --clean && allure open
+
 

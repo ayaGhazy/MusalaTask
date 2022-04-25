@@ -2,6 +2,7 @@ package pages;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebElement;
 import utilites.EnumClass;
 
@@ -12,10 +13,14 @@ public class Careers extends Utilities {
 
     public void clickCareersBtn()
     {
-        actions.keywordActionsElement.scrollToElement("CareersBtn");
-        actions.keywordActionsWait.waitElementExistence("CareersBtn");
-        actions.keywordActionsElement.clickUsingJS("CareersBtn");
-        actions.keywordActionsWait.sleep(EnumClass.sleepMode.Sec,5);
+        actions.keywordActionsElement.scrolltoTop();
+        actions.keywordActionsWait.waitElementToDisplay("CareersBtn");
+        try {
+            actions.keywordActionsElement.click("CareersBtn");
+        } catch (ElementNotInteractableException e)
+            {
+                actions.keywordActionsElement.navigate("CareerUrl");
+            }
     }
     @Step("User click on open positions button")
 
@@ -54,7 +59,6 @@ public class Careers extends Utilities {
       List<WebElement> elementList= actions.keywordActionsElement.findElements("cards1");
         for (WebElement el:elementList
              ) {
-            actions.keywordActionsWait.waitElementToClickable(el);
             System.out.println(  "Position: "+  actions.keywordActionsGet.getText(el).split("\n")[0]);
             Allure.addAttachment("Console log: ", "Position: "+  actions.keywordActionsGet.getText(el).split("\n")[0]);
 
@@ -68,6 +72,8 @@ public class Careers extends Utilities {
 
     public void selectJob()
     {
+        actions.keywordActionsWait.waitElementnotSlated("ChooseJob");
+        actions.keywordActionsWait.waitElementToClickable("ChooseJob");
         actions.keywordActionsElement.click("ChooseJob");
 
     }
@@ -87,8 +93,11 @@ public class Careers extends Utilities {
     {
         actions.keywordActionsElement.scrollToElement("applyBtn");
         actions.assertActions.assertDisplayed("applyBtn",false);
-        actions.keywordActionsElement.clickUsingJS("applyBtn");
+        actions.keywordActionsElement.click("applyBtn");
         actions.keywordActionsWait.sleep(EnumClass.sleepMode.Sec,3);
     }
 
+    public void navigatetoURL() {
+        actions.keywordActionsElement.navigate("JobUrl");
+    }
 }

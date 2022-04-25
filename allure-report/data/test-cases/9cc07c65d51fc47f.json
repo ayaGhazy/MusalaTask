@@ -1,0 +1,386 @@
+{
+  "uid" : "9cc07c65d51fc47f",
+  "name" : "Test Case 3",
+  "fullName" : "Runner2.TestCase3_cont",
+  "historyId" : "e5a3a4c7a9231a490c598bf472972e49",
+  "time" : {
+    "start" : 1650862652596,
+    "stop" : 1650862671413,
+    "duration" : 18817
+  },
+  "description" : "Test Description: User validate apply job form ",
+  "descriptionHtml" : "<p>Test Description: User validate apply job form</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1650862341779,
+      "stop" : 1650862415675,
+      "duration" : 73896
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "start testing at browser ff",
+      "time" : {
+        "start" : 1650862341830,
+        "stop" : 1650862381382,
+        "duration" : 39552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "ff"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Musala url open",
+      "time" : {
+        "start" : 1650862381382,
+        "stop" : 1650862414847,
+        "duration" : 33465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "refresh",
+    "time" : {
+      "start" : 1650862650129,
+      "stop" : 1650862652574,
+      "duration" : 2445
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Musala url open",
+      "time" : {
+        "start" : 1650862650130,
+        "stop" : 1650862652574,
+        "duration" : 2444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "Test Description: User validate apply job form ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User assert and click apply button",
+      "time" : {
+        "start" : 1650862655413,
+        "stop" : 1650862659085,
+        "duration" : 3672
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "User validate 'Apply for page' for Empty Message ",
+      "time" : {
+        "start" : 1650862659085,
+        "stop" : 1650862671413,
+        "duration" : 12328
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User type $randomString in Name",
+        "time" : {
+          "start" : 1650862659085,
+          "stop" : 1650862659400,
+          "duration" : 315
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "$randomString"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "User type Email in Email",
+        "time" : {
+          "start" : 1650862659400,
+          "stop" : 1650862659690,
+          "duration" : 290
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "Email"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "User type MobileNo in Mobile",
+        "time" : {
+          "start" : 1650862659691,
+          "stop" : 1650862659977,
+          "duration" : 286
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "MobileNo"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "User type EmptyString in Message box",
+        "time" : {
+          "start" : 1650862659977,
+          "stop" : 1650862660260,
+          "duration" : 283
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "EmptyString"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "User upload cv then click send button",
+        "time" : {
+          "start" : 1650862660260,
+          "stop" : 1650862671156,
+          "duration" : 10896
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "User upload cv",
+          "time" : {
+            "start" : 1650862660260,
+            "stop" : 1650862660405,
+            "duration" : 145
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "C:\\Users\\a818438\\IdeaProjects\\MusalaTask/src/test/resources/cv.doc"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        }, {
+          "name" : "User check accept checkbox",
+          "time" : {
+            "start" : 1650862670407,
+            "stop" : 1650862670669,
+            "duration" : 262
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "User click send button",
+          "time" : {
+            "start" : 1650862670669,
+            "stop" : 1650862670956,
+            "duration" : 287
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 3
+      }, {
+        "name" : "User assert MessageErrorMessage error Message",
+        "time" : {
+          "start" : 1650862671156,
+          "stop" : 1650862671413,
+          "duration" : 257
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elementName",
+          "value" : "MessageErrorMessage"
+        }, {
+          "name" : "error",
+          "value" : "Error"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Empty Message"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 9
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ {
+    "name" : "report",
+    "time" : {
+      "start" : 1650862671426,
+      "stop" : 1650862671632,
+      "duration" : 206
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "close",
+    "time" : {
+      "start" : 1650862671641,
+      "stop" : 1650862673690,
+      "duration" : 2049
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Runner2"
+  }, {
+    "name" : "testClass",
+    "value" : "Runner2"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase3_cont"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "firefox"
+  }, {
+    "name" : "subSuite",
+    "value" : "Runner2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0BUAG6A0"
+  }, {
+    "name" : "thread",
+    "value" : "10196@LAPTOP-0BUAG6A0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Empty Message"
+  }, {
+    "name" : "browser",
+    "value" : "ff"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9cc07c65d51fc47f.json",
+  "parameterValues" : [ "Empty Message", "ff" ]
+}

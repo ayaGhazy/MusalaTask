@@ -11,14 +11,11 @@ import utilites.Global;
 
 public class Utilities {
    protected static KeyWordsActionManager actions;
-
-    public  void initialize (String browser)
+@Step("start testing at browser ")
+    public  void initialize ()
     {
         WebDriverFactory webDriverFactory = new WebDriverFactory();
-        EnumClass.webBrowser browserName= EnumClass.webBrowser.ch;
-        if (browser.equalsIgnoreCase("default")|| Strings.isNullOrEmpty(browser))
-            browserName = EnumClass.webBrowser.valueOf( Global.getProperty("browserName"));
-        else browserName=EnumClass.webBrowser.valueOf(browser);
+        EnumClass.webBrowser browserName = EnumClass.webBrowser.valueOf( Global.getProperty("browserName"));
         // setup
         WebDriverManagerBase webDriverManagerBase= webDriverFactory.getWebDriver(browserName);
         //setup driver
@@ -26,6 +23,7 @@ public class Utilities {
         //get driver
         WebDriver driver= webDriverManagerBase.getDriver();
         actions = new KeyWordsActionManager(driver);
+        driver.manage().deleteAllCookies();
     }
     @Step("Musala url open")
 
@@ -34,8 +32,19 @@ public class Utilities {
         actions.keywordActionsElement.navigate();
         //wait page for loading
     }
-    public  void close()
+    public  void refresh()
     {
-        actions.keywordActionsElement.close();
+        actions.keywordActionsElement.navigate();
+        actions.keywordActionsElement.driver.navigate().refresh();
+
+        //wait page for loading
+    }
+    public  void quit()
+    {
+        actions.keywordActionsElement.quit();
+    }
+
+    public void report() {
+        actions.keywordActionsWait.sleep(EnumClass.sleepMode.Mill,200);
     }
 }

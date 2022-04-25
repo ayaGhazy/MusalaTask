@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite"   >
-
-
     <test name="chrome"  >
-        <parameter name="browser" value="ch"/>
         <classes>
-            <class name="Runner"/>
-        </classes>
-    </test>
-
-    <test name="firefox"  >
-        <parameter name="browser" value="ff"/>
-        <classes>
-            <class name="Runner"/>
+            <class name="Runner2"/>
         </classes>
     </test>
 

@@ -1,0 +1,1 @@
+{"uuid":"a979a1a0-6fe8-40b1-b626-1eaec9816c68","name":"Runner2.report","children":["adf3cd86-ae80-4780-b948-af2a5dfc66de"],"description":"","befores":[],"afters":[{"name":"report","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1650862439476,"stop":1650862439680}],"links":[],"start":1650862439476,"stop":1650862439680}

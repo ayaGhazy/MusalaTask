@@ -1,0 +1,544 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-0BUAG6A0",
+    "children" : [ {
+      "name" : "13900@LAPTOP-0BUAG6A0.main(1)",
+      "children" : [ {
+        "name" : "Test Case 3",
+        "uid" : "f851ac22ee0d6234",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650863901694,
+          "stop" : 1650863935224,
+          "duration" : 33530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "f21075dfc7217e4d",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650863984138,
+          "stop" : 1650864008235,
+          "duration" : 24097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Invalid Email" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "3091f2e33b8ff07a",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650863962054,
+          "stop" : 1650863981047,
+          "duration" : 18993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Name" ]
+      }, {
+        "name" : "Test Case 4",
+        "uid" : "1b5864f0ef91c43",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650863868415,
+          "stop" : 1650863898417,
+          "duration" : 30002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "60383a31ff943447",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650864011351,
+          "stop" : 1650864030556,
+          "duration" : 19205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Mobile" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "2ab54f2dc088205c",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650864034124,
+          "stop" : 1650864053866,
+          "duration" : 19742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Invalid Mobile" ]
+      }, {
+        "name" : "Test Case 2",
+        "uid" : "a4f6537e47273dc4",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650863855446,
+          "stop" : 1650863863605,
+          "duration" : 8159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "3830db4d5025a14a",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650864056863,
+          "stop" : 1650864080668,
+          "duration" : 23805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Message" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "27453d65bc174183",
+        "parentUid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650863939251,
+          "stop" : 1650863958650,
+          "duration" : 19399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Email" ]
+      } ],
+      "uid" : "a10e8ee2f3948afddd5fd8ed3f7c8cbb"
+    }, {
+      "name" : "10196@LAPTOP-0BUAG6A0.main(1)",
+      "children" : [ {
+        "name" : "Test Case 3",
+        "uid" : "72f7478e9d63a4e0",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862625889,
+          "stop" : 1650862649907,
+          "duration" : 24018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Invalid Mobile", "ff" ]
+      }, {
+        "name" : "Test Case 4",
+        "uid" : "c133156f71802964",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862469612,
+          "stop" : 1650862494937,
+          "duration" : 25325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "ff" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "1cca6c451293ad",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862555607,
+          "stop" : 1650862579586,
+          "duration" : 23979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Name", "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "d1b3e929e91797d4",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862737106,
+          "stop" : 1650862740389,
+          "duration" : 3283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail5", "ch" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "68d75ffaad5e3dbe",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862730770,
+          "stop" : 1650862733550,
+          "duration" : 2780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail4", "ch" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "b47624aeb1d1c99e",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862426149,
+          "stop" : 1650862429453,
+          "duration" : 3304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail2", "ff" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "504797aae83960cc",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862582362,
+          "stop" : 1650862601518,
+          "duration" : 19156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Invalid Email", "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "bffc6697ba0590a9",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862432111,
+          "stop" : 1650862435185,
+          "duration" : 3074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail3", "ff" ]
+      }, {
+        "name" : "Test Case 2",
+        "uid" : "2fbf5fdeb337f088",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1650862754577,
+          "stop" : 1650862759029,
+          "duration" : 4452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "ch" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "9cc07c65d51fc47f",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862652596,
+          "stop" : 1650862671413,
+          "duration" : 18817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Message", "ff" ]
+      }, {
+        "name" : "Test Case 2",
+        "uid" : "e5aff97510afc8ca",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862458416,
+          "stop" : 1650862466346,
+          "duration" : 7930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "a16d91485cebfc2b",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1650862438666,
+          "stop" : 1650862439456,
+          "duration" : 790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail4", "ff" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "5ef0bf9169d223c4",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862533184,
+          "stop" : 1650862552133,
+          "duration" : 18949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Email", "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "19aa475de338be07",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862723876,
+          "stop" : 1650862727390,
+          "duration" : 3514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail3", "ch" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "f5f948e16075bc5f",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862604136,
+          "stop" : 1650862623125,
+          "duration" : 18989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Empty Mobile", "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "70ce7b9b955fb696",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862710403,
+          "stop" : 1650862714166,
+          "duration" : 3763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail", "ch" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "8b667c646ad9d63",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862716904,
+          "stop" : 1650862720600,
+          "duration" : 3696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail2", "ch" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "657cfbd0f8c281a",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1650862448675,
+          "stop" : 1650862449545,
+          "duration" : 870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail5", "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "52f29ba577b2eeaf",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862419574,
+          "stop" : 1650862423031,
+          "duration" : 3457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "WrongEmail", "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "e081ae660007a3c8",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862442437,
+          "stop" : 1650862445803,
+          "duration" : 3366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "WrongEmail4", "ff" ]
+      }, {
+        "name" : "Test Case 3",
+        "uid" : "dfd9fb68e4534a93",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862497330,
+          "stop" : 1650862530227,
+          "duration" : 32897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "ff" ]
+      }, {
+        "name" : "Test Case 1",
+        "uid" : "ead0c917080d48a5",
+        "parentUid" : "676206e6ffb3b8ddd512134ee7a58eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650862452185,
+          "stop" : 1650862455325,
+          "duration" : 3140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "WrongEmail5", "ff" ]
+      } ],
+      "uid" : "676206e6ffb3b8ddd512134ee7a58eff"
+    } ],
+    "uid" : "9e714219733551d4b9bb7f8128d71b42"
+  } ]
+}

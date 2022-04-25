@@ -36,7 +36,9 @@ public class KeywordActionsElement extends KeywordActionsWait {
     {
         driver.close();
     }
-
+    public void navigate(String url) {
+        driver.navigate().to(getVariable(url));
+    }
     public void navigate()
 {
     driver.navigate().to(Global.getProperty("url"));
@@ -47,7 +49,7 @@ public class KeywordActionsElement extends KeywordActionsWait {
 
     public void click(String element) {
         WebElement webElement =findElement(element);
-        waitElementToClickable(element);
+       
         webElement.click();
     }
     public  void switchtoNewWindow()
@@ -62,11 +64,10 @@ public class KeywordActionsElement extends KeywordActionsWait {
         driver.switchTo().window(tabs.get(1));
     }
     public void append(String element, String varName) {
-        waitElementToDisplay(element);
+        waitElementnotSlated(element);
         findElement(element).sendKeys(getVariable(varName));
     }
     public void appendText(String element, String text) {
-        waitElementToDisplay(element);
         findElement(element).sendKeys(text);
     }
     public void clearText(String Element){
@@ -76,8 +77,9 @@ public class KeywordActionsElement extends KeywordActionsWait {
 
 
     private Select select(String element) {
-     WebElement   webelement=findElement(element);
+     waitElementnotSlated(element);
      waitElementToClickable(element);
+        WebElement   webelement=findElement(element);
         Select select = new Select( webelement);
 return select;
     }
@@ -100,13 +102,9 @@ return select;
         TargetedElement.clear();
         TargetedElement.sendKeys(getVariable(value));
     }
-
-
-
-
-
-    public void clickUsingJS(String element) {
+    public void clickjs(String element) {
         WebElement webElement = findElement(element);
+        actions.moveByOffset(webElement.getRect().getWidth(), webElement.getRect().getHeight()).click().build().perform();
         JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("arguments[0].click();", webElement);
     }
@@ -119,9 +117,14 @@ public void clickAt(String element)
 }
     public void scrollToElement(String po) {
         WebElement webElement = findElement(po);
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", webElement);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", webElement);
         actions.moveToElement(webElement).perform();
 
+
+    }
+    public void scrolltoTop()
+    {
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0)");
 
     }
     public void scrollToBottom(String po) {

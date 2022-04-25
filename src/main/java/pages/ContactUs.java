@@ -8,13 +8,13 @@ public class ContactUs extends Utilities {
     public  void acceptCookies()
     {
             actions.keywordActionsWait.waitElementToClickable("AcceptBtn");
-            actions.keywordActionsElement.clickUsingJS("AcceptBtn");
+            actions.keywordActionsElement.click("AcceptBtn");
     }
     @Step("User Click at Contact Us Button")
     public void clickContactUs()
     {
-        actions.keywordActionsElement.scrollToElement("ContactUsBtn");
-        actions.keywordActionsElement.clickUsingJS("ContactUsBtn");
+        actions.keywordActionsElement.scrolltoTop();
+        actions.keywordActionsElement.click("ContactUsBtn");
     }
     @Step("User type {0} in Name")
     public void typeRandomTextOnName(String text)
@@ -95,7 +95,8 @@ public class ContactUs extends Utilities {
 
     public void closeButton()
     {
-        actions.keywordActionsElement.clickUsingJS("CloseBtn");
+        actions.keywordActionsWait.waitElementToDisplay("CloseBtn");
+        actions.keywordActionsElement.clickAt("CloseBtn");
     }
     @Step("User upload cv then click send button")
 
@@ -108,7 +109,7 @@ public class ContactUs extends Utilities {
         clickAcceptButton();
         sendButton();
         actions.keywordActionsWait.sleep(EnumClass.sleepMode.Mill,200);
-        closeButton();
+        //closeButton();
     }
     @Step("User validate 'Apply for page' for {0} ")
 

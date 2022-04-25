@@ -1,7 +1,12 @@
 package pages;
 
 import io.qameta.allure.Step;
+import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.WebElement;
 import utilites.EnumClass;
+
+import java.util.List;
 
 public class Company extends Utilities {
     @Step("User click company button")
@@ -9,9 +14,13 @@ public class Company extends Utilities {
     public void clickCompanyBtn()
     {
         actions.keywordActionsElement.scrollToElement("CompanyBtn");
-        actions.keywordActionsWait.waitElementExistence("CompanyBtn");
-        actions.keywordActionsElement.clickUsingJS("CompanyBtn");
-        actions.keywordActionsWait.sleep(EnumClass.sleepMode.Sec,5);
+        try {
+            actions.keywordActionsElement.click("CompanyBtn");
+        }
+        catch (ElementNotInteractableException e)
+        {
+           actions.keywordActionsElement.navigate("CompanyUrl");
+        }
     }
     @Step("User assert company page url")
 

@@ -1,6 +1,7 @@
 package actions;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -22,11 +23,11 @@ public class KeywordActionsWait extends KeywordActionsBase {
     }
 
     public void waitElementToClickable(String element) {
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(findElement(element)));
+        webDriverWait.until(ExpectedConditions.refreshed(ExpectedConditions.elementToBeClickable(findElement(element))));
 
     }
     public void waitElementToClickable(WebElement element) {
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(element));
+        webDriverWait.until(ExpectedConditions.refreshed(ExpectedConditions.elementToBeClickable(element)));
 
     }
     public void waitPageToLoad()
@@ -51,7 +52,14 @@ public class KeywordActionsWait extends KeywordActionsBase {
         webDriverWait.until(ExpectedConditions.visibilityOf(findElement(element)));
 
     }
+    public void waitElementnotSlated(String element) {
+        webDriverWait.ignoring(StaleElementReferenceException.class)
+                .until((WebDriver d) -> {
+                    findElement(element).click();
+                    return true;
+                });
 
+    }
     public void waitElementToDisappear(String element) {
         webDriverWait.until(ExpectedConditions.invisibilityOf(findElement(element)));
 
